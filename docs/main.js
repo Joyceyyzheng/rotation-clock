@@ -46,8 +46,6 @@ function updateClock() {
   console.log("hour degree" + hourRotation + ",min degree" + minuteRotation)
 }
 
-// Initial update
 updateClock()
 
-// Update every minute
 setInterval(updateClock, 60000)
